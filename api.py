@@ -24,6 +24,6 @@ def home():
 def games():
     return games_json
 
-#app.run(host= '0.0.0.0')
-app.run()
+app.run(host= '0.0.0.0')
+# app.run()
 
