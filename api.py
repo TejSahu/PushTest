@@ -12,7 +12,10 @@ games = [{'id': 0,
             'published': '2005'},
         {'id': 2,
             'title': 'Need for Speed Underground 2',
-            'published': '2004'}]
+            'published': '2004'},
+        {'id': 3,
+          'title': 'Need for Speed Prostreet',
+          'published': '2012'}]
 
 games_json = json.dumps(games)
 @app.route('/')
