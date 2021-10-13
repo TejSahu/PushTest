@@ -14,7 +14,7 @@ games = [{'id': 0,
             'title': 'Need for Speed Underground 2',
             'published': '2004'},
         {'id': 3,
-          'title': 'Need for Speed Prostreet',
+          'title': 'Need for Speed Shift',
           'published': '2012'}]
 
 games_json = json.dumps(games)
