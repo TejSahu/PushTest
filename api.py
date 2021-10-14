@@ -4,18 +4,21 @@ import json
 app = Flask(__name__)
 
 # Best Need for Speed Games
-games = [{'id': 0,
-            'title': 'Need for Speed Heat',
-            'year_published': '2019'},
-        {'id': 1,
-            'title': 'Need for Speed Most Wanted',
-            'published': '2005'},
+games = [{'id': 1,
+        'title': 'Need for Speed Heat',
+        'year_published': '2019'},
         {'id': 2,
-            'title': 'Need for Speed Underground 2',
-            'published': '2004'},
+        'title': 'Need for Speed Most Wanted',
+        'published': '2005'},
         {'id': 3,
-          'title': 'Need for Speed Prostreet',
-          'published': '2012'}]
+        'title': 'Need for Speed Underground 2',
+        'published': '2004'},
+        {'id': 4,
+        'title': 'Need for Speed Prostreet',
+        'published': '2012'},
+        {'id': 5,
+        'title': 'Need for Speed Shift',
+        'published': '2008'}]
 
 games_json = json.dumps(games)
 @app.route('/')
